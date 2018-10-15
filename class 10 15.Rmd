@@ -1,0 +1,24 @@
+---
+title: "Class 10 15"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readxl)
+library(tidyverse)
+library(janitor)
+```
+
+## df 1
+
+```{r}
+e_18 <- read_excel("class_enrollment_summary_by_term_10_12.xlsx", skip = 2) %>%
+  clean_names()
+```
+
+## 
+
+```{r, echo=FALSE}
+
+```
